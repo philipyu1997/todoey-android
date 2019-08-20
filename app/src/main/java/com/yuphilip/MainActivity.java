@@ -2,6 +2,7 @@ package com.yuphilip;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -30,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         // mock data
         items.add("First item");
         items.add("Second item");
+
+        setupListViewListener();
     }
 
     public void onAddItem(View v) {
@@ -38,5 +41,17 @@ public class MainActivity extends AppCompatActivity {
         itemsAdapter.add(itemText);
         etNewItem.setText("");
         Toast.makeText(getApplicationContext(), "Item added to list", Toast.LENGTH_SHORT).show();
+    }
+
+    private void setupListViewListener() {
+        lvItems.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                items.remove(i);
+                itemsAdapter.notifyDataSetChanged();
+
+                return true;
+            }
+        });
     }
 }
