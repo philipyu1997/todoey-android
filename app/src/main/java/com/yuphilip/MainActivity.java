@@ -34,10 +34,6 @@ public class MainActivity extends AppCompatActivity {
         lvItems = (ListView) findViewById(R.id.lvItems);
         lvItems.setAdapter(itemsAdapter);
 
-        // mock data
-//        items.add("First item");
-//        items.add("Second item");
-
         setupListViewListener();
     }
 
