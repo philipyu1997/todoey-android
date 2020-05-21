@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">SimpleTodo</string>
+    <!--  activity_main.xml  -->
+    <string name="app_name">Todoey</string>
     <string name="add">Add</string>
     <string name="add_a_new_item">Add a new item</string>
+
+    <!--  activity_edit_item.xml  -->
+    <string name="enter_item_description">Enter item description</string>
+    <string name="save">Save</string>
 </resources>
