@@ -27,4 +27,4 @@ Here's a GIF of how the app works:
 
 ## Credits
 
->This is a companion project to CodePath's Professional Android Course, check out the full course at [www.codepath.org](https://codepath.org/)
+>This is a companion project to CodePath's Professional Android Course, check out the full course at [www.codepath.org](https://codepath.org/).
