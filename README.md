@@ -23,7 +23,7 @@ Todoey is a to-do list app to keep track of all your tasks.
 
 Here's a GIF of how the app works:
 
-<img src="https://user-images.githubusercontent.com/35745973/82535420-ab527c80-9afb-11ea-81ba-1189211f798a.gif" width=250><br>
+<img src="https://github.com/py415/app-resources/blob/master/android/android-todoey.gif" width=250><br>
 
 ## Credits
 
